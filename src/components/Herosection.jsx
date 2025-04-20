@@ -70,7 +70,7 @@ const HeroSection = forwardRef(({ scrollToProjects }, ref) => {
             </button>
 
             <a
-              href="https://drive.google.com/file/d/1cZ6B3V9MyyozBYBpbhtu72p6zvNerJay/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1Z_n-XdM3KrX6O_DNWbPUhkCq3QcSv86y/view"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-red-400 text-white rounded-full font-bold transition-all duration-300 transform hover:scale-105 cursor-pointer relative overflow-hidden group"
