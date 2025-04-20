@@ -106,22 +106,22 @@ const AboutSection = forwardRef((props, ref) => {
               {[
                 {
                   title: "Web Development",
-                  desc: "Building modern applications using JavaScript, and cutting-edge frameworks",
+                  desc: "Building modern applications with JavaScript and leveraging the latest frameworks.",
                   delay: 0.2,
                 },
                 {
                   title: "Data Structures & Algorithms",
-                  desc: "Solving complex problems using efficient algorithms and logical thinking",
+                  desc: "Tackling challenging problems through efficient algorithms and thoughtful problem-solving.",
                   delay: 0.3,
                 },
                 {
                   title: "Team & Project Management",
-                  desc: "Coordinating tech initiatives and leading club-based innovation and events",
+                  desc: "Organizing tech initiatives and guiding club-driven innovation and events.",
                   delay: 0.4,
                 },
                 {
                   title: "UI/UX Design",
-                  desc: "Creating intuitive user experiences with modern design principles",
+                  desc: "Crafting seamless user experiences by applying modern design principles.",
                   delay: 0.5,
                 },
               ].map((item, idx) => (
