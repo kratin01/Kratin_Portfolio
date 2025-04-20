@@ -3,7 +3,7 @@ import { forwardRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const TITLES = ["MERN DEVELOPER", "DSA ENTHUSIAST", "COMPETITIVE PROGRAMMER"];
+const TITLES = ["MERN DEVELOPER", "DSA ENTHUSIAST", "COMPETITIVE PROGRAMMER","DESIGNER"];
 
 const HeroSection = forwardRef(({ scrollToProjects }, ref) => {
   const [titleIndex, setTitleIndex] = useState(0);
