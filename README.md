@@ -67,13 +67,14 @@
 
 <div align="center">
 
-| Frontend | Styling & Animation | Development | Deployment |
-|:--------:|:------------------:|:-----------:|:----------:|
+| 🧩 Frontend | 🎨 Styling & Animation | 🧪 Development | 🚀 Deployment |
+|:----------:|:----------------------:|:-------------:|:-------------:|
 | React.js with Hooks | Tailwind CSS | Vite with HMR | Netlify with CI/CD |
-| React Icons | Custom animations | ESLint | Netlify Forms |
-| Heroicons | Framer Motion | PostCSS | |
+| React Icons & Heroicons | Framer Motion | ESLint & PostCSS | Netlify Forms |
+| EmailJS (for contact form) | Custom animations | React Hot Toast | |
 
 </div>
+
 
 ## 🚀 Installation & Setup
 
