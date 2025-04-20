@@ -1,0 +1,73 @@
+@import "tailwindcss";
+body {
+  font-family: "Jost";
+}
+
+@tailwind utilities;
+
+@layer utilities {
+  .glow-hover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    border: 2px solid transparent;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(239, 68, 68, 0.7),
+      rgba(255, 255, 255, 0.1)
+    );
+    background-size: 300% 300%;
+    animation: borderGlow 2s linear infinite;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .group:hover .glow-hover::before {
+    opacity: 1;
+  }
+
+  @keyframes borderGlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+}
+
+.icon-hover-effect::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.4s ease-in-out;
+  opacity: 0.15;
+  border-radius: 9999px;
+  z-index: -1;
+}
+
+.icon-hover-effect.github:hover::before {
+  background-color: #181717;
+  transform: scaleY(1);
+}
+
+.icon-hover-effect.linkedin:hover::before {
+  background-color: #0076b5;
+  transform: scaleY(1);
+}
+
+.icon-hover-effect.gmail:hover::before {
+  background-color: #db4437;
+  transform: scaleY(1);
+}
+
+.icon-hover-effect.whatsapp:hover::before {
+  background-color: #25d366;
+  transform: scaleY(1);
+}

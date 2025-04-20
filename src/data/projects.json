@@ -1,0 +1,87 @@
+[
+  {
+    "id": 8,
+    "featured": true,
+    "name": "ChitChat",
+    "description": "A real-time messaging app for seamless worldwide communication. With user search, online status, and message timestamps, it's designed for efficient chatting anytime, anywhere.",
+    "github": "https://github.com/kratin01/chitchat",
+    "live": "https://chitchat-4kri.onrender.com/",
+
+    "tech": [
+      "ReactJs",
+      "ExpressJs",
+      "mongoose",
+      "socket.io",
+      "zustand2",
+      "TailwindCSS",
+      "Framer Motion",
+      "React Router-Dom"
+    ]
+  },
+  {
+    "id": 7,
+    "featured": true,
+    "name": "Find_Your_Recipe",
+    "description": "This React app lets users quickly find recipes by entering a food item's name. Selecting a recipe redirects them to a YouTube video for easy, step-by-step cooking instructions.",
+    "github": "https://github.com/kratin01/find-your-recipe",
+    "live": "https://k-find-your-recipe.netlify.app/",
+
+    "tech": ["ReactJs", "YouTube API", "TailwindCSS", "Axios", "Edamam API"]
+  },
+  {
+    "id": 5,
+    "featured": true,
+    "name": "To-do-List",
+    "description": "This web-based to-do list app, built with React, helps you stay organized by allowing you to add, update, and mark tasks as completed. Its clean and user-friendly interface makes managing daily tasks simple and efficient.",
+    "github": "https://github.com/kratin01/To-do-List",
+    "live": "https://k-to-do-list.netlify.app/",
+
+    "tech": ["ReactJs", "TailwindCSS", "JavaScript", "React-Router-Dom"]
+  },
+  {
+    "id": 4,
+    "featured": false,
+    "name": "libra-link",
+    "description": "Libra Link is a MERN stack project where users can discover books, log in, and upload their own books. It offers a simple platform for book sharing and exploration.",
+    "github": "https://github.com/kratin01/libra-link",
+    "live": "https://libra-link-frontend.vercel.app/",
+
+    "tech": [
+      "ReactJs",
+      "ExpressJs",
+      "MongoDB",
+      "NodeJs",
+      "Swiper",
+      "TailwindCSS"
+    ]
+  },
+  {
+    "id": 3,
+    "featured": false,
+    "name": "Password-generator",
+    "description": "This React app generates secure passwords with customizable length and character types (letters, numbers, special characters) and allows users to copy them to the clipboard. The UI is responsive and user-friendly.",
+    "github": "https://github.com/kratin01/Password-generator",
+    "live": "https://k-random-password-generator.netlify.app/",
+
+    "tech": ["ReactJs", "TailwindCSS", "JavaScript", "Clipboard API"]
+  },
+  {
+    "id": 2,
+    "featured": false,
+    "name": "Notes",
+    "description": "This code builds a simple note-taking app where users can add, edit, and delete notes. It supports Markdown formatting, displaying rendered content when not in edit mode. A basic example of dynamic content using HTML, CSS, and JavaScript.",
+    "github": "https://github.com/kratin01/Notes",
+    "live": "https://kratin01.github.io/Notes/",
+
+    "tech": ["Html", "CSS", "JavaScript", "Marked", "Font Awesome"]
+  },
+  {
+    "id": 1,
+    "featured": false,
+    "name": "Nike-Landing-Page",
+    "description": " Explore the Nike Landing Page – a fusion of sleek design and smooth Framer Motion animations for an immersive user experience. With seamless loading and eye-catching tsParticles effects, this site sets a new benchmark for interactive design. Clean, dynamic, and captivating.",
+    "github": "https://github.com/kratin01/Nike-Landing-Page",
+    "live": "https://k-nike-landing-page.netlify.app/",
+    "tech": ["ReactJs", "TailwindCSS", "Framer Motion", "Swiper", "tsParticles"]
+  }
+]
