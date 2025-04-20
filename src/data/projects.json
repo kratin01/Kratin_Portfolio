@@ -39,6 +39,23 @@
     "tech": ["ReactJs", "TailwindCSS", "JavaScript", "React-Router-Dom"]
   },
   {
+    "id": 6,
+    "featured": false,
+    "name": "Portfolio",
+    "description": "A simple and responsive personal portfolio website to share my work, skills, and projects. Built with care using modern web technologies and a touch of smooth animations for a pleasant user experience.",
+    "github": "https://github.com/kratin01/Kratin_Portfolio",
+    "live": "https://kratin-aggarwal-portfolio.netlify.app/",
+
+    "tech": [
+      "ReactJs",
+      "EmailJs",
+      "Framer Motion",
+      "React Router-Dom",
+      "React-Hot-Toast",
+      "TailwindCSS"
+    ]
+  },
+  {
     "id": 4,
     "featured": false,
     "name": "libra-link",
