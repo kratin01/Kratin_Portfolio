@@ -19,6 +19,7 @@ import {
   SiGit,
   SiGithub,
   SiNpm,
+  SiStreamlit
 } from "react-icons/si";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -51,6 +52,8 @@ const devTools = [
   { Icon: SiGit, color: "#F05032" },
   { Icon: SiGithub, color: "#181717" },
   { Icon: SiNpm, color: "#CB3837" },
+  { Icon: SiStreamlit, color: "#FF4B4B" }
+
 ];
 
 const cardVariants = {
