@@ -75,7 +75,7 @@ const HeroSection = forwardRef(({ scrollToProjects }, ref) => {
               rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-red-400 text-white rounded-full font-bold transition-all duration-300 transform hover:scale-105 cursor-pointer relative overflow-hidden group"
             >
-              <span className="relative z-10">View CV</span>
+              <span className="relative z-10">View Resume</span>
               <div className="absolute inset-0 bg-gradient-to-r from-red-400/30 via-white/30 to-red-400/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-full group-hover:translate-x-0"></div>
             </a>
           </motion.div>
