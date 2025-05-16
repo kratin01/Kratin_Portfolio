@@ -1,5 +1,24 @@
 [
   {
+    "id": 9,
+    "featured": true,
+    "name": "FitMe AI",
+    "description": "A personalized AI fitness assistant that creates tailored workout and diet plans using advanced conversational AI and voice interactions, offering real-time program generation and secure user management.",
+    "github": "https://github.com/kratin01/FitMe-ai",
+    "live": "https://fit-me-ai-nu.vercel.app/",
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Gemini AI",
+      "Shadcn UI",
+      "Clerk",
+      "Vapi",
+      "Convex"
+    ]
+  },
+
+  {
     "id": 8,
     "featured": true,
     "name": "ChitChat",

@@ -22,7 +22,7 @@ import {
   SiStreamlit
 } from "react-icons/si";
 import { BiLogoVisualStudio } from "react-icons/bi";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiTailwindCssFill,RiNextjsFill } from "react-icons/ri";
 
 const frontendTools = [
   { Icon: SiHtml5, color: "#E34F26" },
@@ -30,6 +30,7 @@ const frontendTools = [
   { Icon: RiTailwindCssFill, color: "#38BDF8" },
   { Icon: SiJavascript, color: "#F7DF1E" },
   { Icon: SiReact, color: "#61DAFB" },
+  { Icon: RiNextjsFill, color: "#333333" },
 ];
 
 const backendTools = [
@@ -41,13 +42,13 @@ const backendTools = [
 ];
 
 const designTools = [
-  { Icon: SiFigma, color: "#F24E1E" },
-  { Icon: SiCanva, color: "#00C4CC" },
-  { Icon: SiAdobephotoshop, color: "#31A8FF" },
+  { Icon: SiFigma, color: "#F66D5D" },
+  { Icon: SiCanva, color: "#6F3BE4" },
+  { Icon: SiAdobephotoshop, color: "#24BEE8" },
 ];
 
 const devTools = [
-  { Icon: BiLogoVisualStudio, color: "#5C2D91" },
+  { Icon: BiLogoVisualStudio, color: "#16ADEE" },
   { Icon: SiPostman, color: "#FF6C37" },
   { Icon: SiGit, color: "#F05032" },
   { Icon: SiGithub, color: "#181717" },
