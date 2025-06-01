@@ -193,7 +193,7 @@ const ContactSection = forwardRef((props, ref) => {
               </a>
 
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=ridlad7@gmail.com"
+                href="https://mail.google.com/mail/u/0/?fs=1&to=kratinaggarwal8750@gmail.com&tf=cm"
                 className="text-red-300 group relative transition-all duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
