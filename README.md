@@ -29,7 +29,9 @@
 
 <div align="center">
      <img src="./public/screenshots/project.png" width="50%" alt="Projects" style="margin-top: 20px">
+     <img src="./public/screenshots/project2.png" width="50%" alt="Projects" style="margin-top: 20px">
 </div>
+
 
 ## ✨ Features
 
@@ -60,6 +62,15 @@
       • Contact area with direct links and form for reaching out
     </td>
   </tr>
+  <tr>
+   <td>✅ <b>Interactive Portfolio CLI</b></td>
+<td>
+  • Built a terminal-like interface for my portfolio using React<br>
+  • Users can explore sections like projects, skills, and socials via custom commands<br>
+  • Added command aliases and keyboard-friendly navigation for a developer-centric UX
+</td>
+
+  </tr>
 </table>
 
 
@@ -69,11 +80,12 @@
 
 | 🧩 Frontend | 🎨 Styling & Animation | 🧪 Development | 🚀 Deployment |
 |:----------:|:----------------------:|:-------------:|:-------------:|
-| React.js with Hooks | Tailwind CSS | Vite with HMR | Netlify with CI/CD |
-| React Icons & Heroicons | Framer Motion | ESLint & PostCSS | Netlify Forms |
-| EmailJS (for contact form) | Custom animations | React Hot Toast | |
+| React.js with Hooks | Tailwind CSS | Vite + HMR | Netlify CI/CD |
+| React Icons, Heroicons | Framer Motion | ESLint & Prettier | Netlify Forms |
+| Portfolio CLI Interface | Custom CLI Animations | React Hot Toast | EmailJS Integration |
 
 </div>
+
 
 
 ## 🚀 Installation & Setup
