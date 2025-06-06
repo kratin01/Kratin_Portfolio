@@ -92,7 +92,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Rida-Lad/portfolio.git
+   git clone https://github.com/kratin01/Kratin_Portfolio.git
    cd portfolio
    ```
 
