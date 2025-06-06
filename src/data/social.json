@@ -1,0 +1,42 @@
+[
+  {
+    "category": "My Socials",
+    "links": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kratin-aggarwal-691157257/",
+        "icon": "FiLinkedin"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/kratin01",
+        "icon": "FiGithub"
+      }
+    ]
+  },
+  {
+    "category": "Coding Profiles",
+    "links": [
+      {
+        "name": "Codolio",
+        "url": "https://codolio.com/profile/kratin",
+        "icon": "FaEarlybirds"
+      },
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/u/0xKR4T1N/",
+        "icon": "SiLeetcode"
+      },
+      {
+        "name": "Codeforces",
+        "url": "https://codeforces.com/profile/kratin",
+        "icon": "SiCodeforces"
+      },
+      {
+        "name": "CodeChef",
+        "url": "https://www.codechef.com/users/kratin_16",
+        "icon": "SiCodechef"
+      }
+    ]
+  }
+]

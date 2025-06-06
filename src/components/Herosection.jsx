@@ -3,7 +3,12 @@ import { forwardRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const TITLES = ["MERN DEVELOPER", "DSA ENTHUSIAST", "COMPETITIVE PROGRAMMER","DESIGNER"];
+const TITLES = [
+  "MERN DEVELOPER",
+  "DSA ENTHUSIAST",
+  "COMPETITIVE PROGRAMMER",
+  "DESIGNER",
+];
 
 const HeroSection = forwardRef(({ scrollToProjects }, ref) => {
   const [titleIndex, setTitleIndex] = useState(0);
@@ -70,7 +75,7 @@ const HeroSection = forwardRef(({ scrollToProjects }, ref) => {
             </button>
 
             <a
-              href="https://drive.google.com/file/d/1wNz7ZIYBXp8-Xfs6Zukiml5xhSemsDTY/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1YvW8STf9KgYq_o0SM7CW9a9RfhoNdNW-/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-red-400 text-white rounded-full font-bold transition-all duration-300 transform hover:scale-105 cursor-pointer relative overflow-hidden group"
@@ -89,7 +94,7 @@ const HeroSection = forwardRef(({ scrollToProjects }, ref) => {
           className="flex flex-row flex-wrap items-center justify-center gap-12 mt-24"
         >
           {[
-            ["500+", "CODING PROBLEMS SOLVED"],
+            ["800+", "CODING PROBLEMS SOLVED"],
             ["10", "Projects"],
             ["20+", "Technologies"],
           ].map(([value, text], index) => (
