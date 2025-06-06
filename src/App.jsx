@@ -11,6 +11,7 @@ const SkillsSection = lazy(() => import("./components/SkillsSection"));
 const ProjectsSection = lazy(() => import("./components/ProjectsSection"));
 const ContactSection = lazy(() => import("./components/ContactSection"));
 const ProjectsPage = lazy(() => import("./pages/ProjectsPage"));
+const CLIMode = lazy(() => import("./pages/CLIMode"));
 
 // Loader configuration
 const loaderOverride = {
@@ -95,7 +96,9 @@ export default function App() {
                     <HeroSection
                       ref={heroRef}
                       scrollToProjects={() =>
-                        projectsRef.current?.scrollIntoView({ behavior: "smooth" })
+                        projectsRef.current?.scrollIntoView({
+                          behavior: "smooth",
+                        })
                       }
                     />
                     <AboutSection ref={aboutRef} />
@@ -126,6 +129,25 @@ export default function App() {
               }
             >
               <ProjectsPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/cli"
+          element={
+            <Suspense
+              fallback={
+                <div className="min-h-screen bg-black flex items-center justify-center">
+                  <PacmanLoader
+                    color="#ef4444"
+                    loading={true}
+                    cssOverride={loaderOverride}
+                    size={50}
+                  />
+                </div>
+              }
+            >
+              <CLIMode />
             </Suspense>
           }
         />
