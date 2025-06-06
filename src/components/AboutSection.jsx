@@ -63,7 +63,7 @@ const AboutSection = forwardRef((props, ref) => {
                 <p className="opacity-80 mt-1">
                   Indian Institute of Information Technology (IIIT) Kota
                 </p>
-                <p className="opacity-80 mt-1">CGPA: 8.2</p>
+                <p className="opacity-80 mt-1">CGPA: 8.0</p>
               </motion.div>
 
               {/* 12th Grade */}
