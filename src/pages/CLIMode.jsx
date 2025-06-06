@@ -504,19 +504,22 @@ const CLIMode = () => {
     }, 10);
   };
 
- 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white p-3 md:p-6">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white p-4 md:p-6">
       <div className="max-w-6xl mx-auto">
-        {/* Header - Stack vertically on mobile */}
-        <div className="flex flex-col justify-between items-start mb-4 md:mb-6">
+        {/* Header */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 md:mb-8">
           <div>
             <motion.h1
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-red-400 to-purple-500 bg-clip-text text-transparent"
+              className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-red-400 to-purple-500 bg-clip-text text-transparent"
             >
-              <button className="hover:cursor-pointer" onClick={handleNavigate}>
+              <button
+                className=" hover:cursor-pointer"
+                onClick={handleNavigate}
+              >
+                {" "}
                 KRATIN AGGARWAL
               </button>
             </motion.h1>
@@ -524,7 +527,7 @@ const CLIMode = () => {
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="text-lg md:text-xl text-gray-300"
+              className="text-xl text-gray-300"
             >
               DESIGNER & DEVELOPER
             </motion.p>
@@ -533,39 +536,39 @@ const CLIMode = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="mt-2 md:mt-0"
+            className="mt-4 md:mt-0 text-right"
           >
-            <div className="text-xl md:text-2xl font-bold">{formatTime(time)}</div>
-            <div className="text-gray-300 text-sm md:text-base">{formatDate(time)}</div>
+            <div className="text-2xl font-bold">{formatTime(time)}</div>
+            <div className="text-gray-300">{formatDate(time)}</div>
           </motion.div>
         </div>
 
-        {/* Terminal - Adjust height for mobile */}
+        {/* Terminal */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.7 }}
           className="bg-gray-900/80 backdrop-blur-xl rounded-xl border border-gray-800 overflow-hidden shadow-2xl"
         >
-          {/* Terminal header - Smaller on mobile */}
-          <div className="flex items-center justify-between p-2 md:p-3 bg-gray-900 border-b border-gray-800">
-            <div className="flex items-center gap-1 md:gap-2">
-              <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-red-500"></div>
-              <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-yellow-500"></div>
-              <div className="w-2 h-2 md:w-3 md:h-3 rounded-full bg-green-500"></div>
+          {/* Terminal header */}
+          <div className="flex items-center justify-between p-3 bg-gray-900 border-b border-gray-800">
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full bg-red-500"></div>
+              <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+              <div className="w-3 h-3 rounded-full bg-green-500"></div>
             </div>
-            <div className="text-xs md:text-sm font-mono">terminal</div>
-            <div className="text-xs md:text-sm text-gray-400">ENG IN</div>
+            <div className="text-sm font-mono">terminal</div>
+            <div className="text-sm text-gray-400">ENG IN</div>
           </div>
 
-          {/* Terminal content - Responsive height */}
-          <div className="p-2 md:p-4 h-[55vh] md:h-[400px] overflow-y-auto font-mono text-xs md:text-sm break-words">
+          {/* Terminal content */}
+          <div className="p-4 h-[400px] overflow-y-auto font-mono text-sm">
             {history.map((item, index) => (
-              <div key={index} className="mb-2 md:mb-3 last:mb-0">
+              <div key={index} className="mb-3 last:mb-0">
                 {item.type === "command" && (
-                  <div className="flex flex-wrap">
+                  <div className="flex">
                     <span className="text-green-400">kratin@portfolio:~$</span>
-                    <span className="ml-1 md:ml-2">{item.content}</span>
+                    <span className="ml-2">{item.content}</span>
                   </div>
                 )}
                 {item.type === "output" && (
@@ -579,30 +582,30 @@ const CLIMode = () => {
             <div ref={endRef} />
           </div>
 
-          {/* Input area - Adjust for mobile */}
+          {/* Input area */}
           <form
             onSubmit={handleSubmit}
-            className="flex items-center p-2 md:p-3 bg-gray-900 border-t border-gray-800"
+            className="flex items-center p-3 bg-gray-900 border-t border-gray-800"
           >
-            <span className="text-green-400 text-xs md:text-sm">kratin@portfolio:~$</span>
+            <span className="text-green-400">kratin@portfolio:~$</span>
             <input
               ref={inputRef}
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
-              className="ml-1 md:ml-2 flex-1 bg-transparent outline-none text-xs md:text-sm"
+              className="ml-2 flex-1 bg-transparent outline-none"
               autoFocus
             />
           </form>
         </motion.div>
 
-        {/* Command shortcuts - Responsive grid */}
+        {/* Command shortcuts */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9 }}
-          className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 md:gap-3"
+          className="mt-6 grid grid-cols-2 md:grid-cols-5 gap-3"
         >
           {[
             { cmd: "about", label: "About" },
@@ -614,7 +617,7 @@ const CLIMode = () => {
             <button
               key={item.cmd}
               onClick={() => handleShortcut(item.cmd)}
-              className="p-2 md:p-3 bg-gray-900 rounded-lg border border-gray-800 hover:border-gray-700 transition-colors text-center text-xs md:text-sm"
+              className="p-3 bg-gray-900 rounded-lg border border-gray-800 hover:border-gray-700 transition-colors text-center"
             >
               {item.label}
             </button>
