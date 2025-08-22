@@ -1,5 +1,42 @@
 [
   {
+    "id": 10,
+    "featured": true,
+    "name": "CodeTales",
+    "description": "A modern AI-powered blogging platform with secure admin panel, dynamic blog creation, category management, and AI-assisted content generation using Google Gemini AI. Built with React, Node.js, and MongoDB for a seamless reading and publishing experience.",
+    "github": "https://github.com/kratin01/CodeTales",
+    "live": "https://code-tales-six.vercel.app/",
+    "tech": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TailwindCSS",
+      "Quill.js",
+      "Google Gemini AI",
+      "ImageKit",
+      "Framer Motion"
+    ]
+  },
+  {
+    "id": 7,
+    "featured": true,
+    "name": "XpenseMate",
+    "description": "A full-stack personal finance manager to track expenses, manage budgets, and visualize spending. Features include authentication, transaction management, receipt OCR, analytics dashboard, and responsive UI.",
+    "github": "https://github.com/kratin01/ExpenseMate",
+    "live": "https://expensemate-i8ru.onrender.com/",
+    "tech": [
+      "ReactJs",
+      "NodeJs",
+      "ExpressJs",
+      "Tesseract.js",
+      "TailwindCSS",
+      "Vite",
+      "MongoDB",
+      "JWT"
+    ]
+  },
+  {
     "id": 9,
     "featured": true,
     "name": "FitMe AI",
@@ -33,24 +70,6 @@
       "TailwindCSS",
       "Framer Motion",
       "React Router-Dom"
-    ]
-  },
-  {
-    "id": 7,
-    "featured": true,
-    "name": "XpenseMate",
-    "description": "A full-stack personal finance manager to track expenses, manage budgets, and visualize spending. Features include authentication, transaction management, receipt OCR, analytics dashboard, and responsive UI.",
-    "github": "https://github.com/kratin01/ExpenseMate",
-    "live": "https://expensemate-i8ru.onrender.com/",
-    "tech": [
-      "ReactJs",
-      "NodeJs",
-      "ExpressJs",
-      "Tesseract.js",
-      "TailwindCSS",
-      "Vite",
-      "MongoDB",
-      "JWT"
     ]
   },
   {
