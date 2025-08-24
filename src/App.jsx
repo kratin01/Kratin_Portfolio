@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { Toaster } from "react-hot-toast";
 import { PacmanLoader } from "react-spinners";
+import LoadingScreen from "./components/Loader";
 
 // Lazy-loaded components
 const HeroSection = lazy(() => import("./components/Herosection"));
@@ -36,7 +37,7 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 2500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -67,15 +68,7 @@ export default function App() {
           path="/"
           element={
             isLoading ? (
-              <div className="min-h-screen bg-black flex items-center justify-center">
-                <PacmanLoader
-                  color="#ef4444"
-                  loading={true}
-                  cssOverride={loaderOverride}
-                  size={50}
-                  aria-label="Loading..."
-                />
-              </div>
+              <LoadingScreen />
             ) : (
               <>
                 <Navbar sectionRefs={sectionRefs} />
