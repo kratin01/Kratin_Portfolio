@@ -44,7 +44,7 @@ export default function App() {
   return (
     <Router>
       <Toaster
-        position="bottom-center"
+        position="top-center"
         toastOptions={{
           className: "!bg-gray-900 !text-white",
           success: {
