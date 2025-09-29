@@ -1,21 +1,23 @@
 [
   {
-    "id": 10,
+    "id": 11,
     "featured": true,
-    "name": "CodeTales",
-    "description": "A modern AI-powered blogging platform with secure admin panel, dynamic blog creation, category management, and AI-assisted content generation using Google Gemini AI. Built with React, Node.js, and MongoDB for a seamless reading and publishing experience.",
-    "github": "https://github.com/kratin01/CodeTales",
-    "live": "https://code-tales-six.vercel.app/",
+    "name": "DevConnect",
+    "description": "A social platform for developers with real-time chat, JWT authentication, RESTful APIs, and automated email notifications. Deployed on AWS EC2 with Nginx and PM2 for high availability.",
+    "github": "https://github.com/kratin01/DevConnect",
+    "live": "https://devconnect.services/",
     "tech": [
       "React",
       "Node.js",
+      "Socket.io",
+      "AWS",
+      "Redux",
       "Express.js",
       "MongoDB",
-      "TailwindCSS",
-      "Quill.js",
-      "Google Gemini AI",
-      "ImageKit",
-      "Framer Motion"
+      "Amazon SES",
+      "Nginx",
+      "PM2",
+      "TailwindCSS"
     ]
   },
   {
@@ -34,6 +36,25 @@
       "Vite",
       "MongoDB",
       "JWT"
+    ]
+  },
+  {
+    "id": 10,
+    "featured": true,
+    "name": "CodeTales",
+    "description": "A modern AI-powered blogging platform with secure admin panel, dynamic blog creation, category management, and AI-assisted content generation using Google Gemini AI. Built with React, Node.js, and MongoDB for a seamless reading and publishing experience.",
+    "github": "https://github.com/kratin01/CodeTales",
+    "live": "https://code-tales-six.vercel.app/",
+    "tech": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TailwindCSS",
+      "Quill.js",
+      "Google Gemini AI",
+      "ImageKit",
+      "Framer Motion"
     ]
   },
   {
